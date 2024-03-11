@@ -1,1 +1,18 @@
 # playground-v2.5-webui
+把项目启动起来总共分三步：
+
+## 第一步，下载playground v2.5的diffusers格式的模型
+下载地址：https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic
+
+## 第二步，安装环境
+1、直接安装
+pip install -r requirements -i 
+2、diffusers库要求0.27.0，目前还没有上正式版本
+pip install git+https://github.com/huggingface/diffusers.git
+pip install transformers accelerate safetensors
+
+## 第三步，clone这个项目到本地
+直接执行：python app.py
+注：如需使用api，可以直接增加启动api即可
+
+注意：功能只是简版，不完善！
