@@ -16,3 +16,4 @@ pip install transformers accelerate safetensors
 注：如需使用api，可以直接增加启动api即可
 
 注意：功能只是简版，不完善！
+
